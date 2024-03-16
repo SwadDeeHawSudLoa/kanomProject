@@ -2,9 +2,9 @@ import NavBar from '@/app/component/navbar'
 export default function Hpage() {
     return (
    <> <NavBar />
-      <main className="flex min-h-screen flex-col items-center justify-between p-24">
+      <main className="bg-slate-400 h-full w-full">
       
-      
+      <>hi</>
       </main>
       
       
