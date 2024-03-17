@@ -9,24 +9,24 @@ export default function Hpage() {
       <div className="flex justify-center">
   <form className="max-w-sm mx-auto flex flex-row space-x-4">
     <input
-      type="email"
-      id="email1"
+      type="text"
+      id="text1"
       className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
-      placeholder="name@flowbite.com"
+      placeholder="กรอกรหัสหรือชื่อวิชา"
       required
     />
     <input
-      type="email"
-      id="email2"
+      type="text"
+      id="text2"
       className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
-      placeholder="name@flowbite.com"
+      placeholder="Section"
       required
     />
     <input
-      type="email"
-      id="email3"
+      type="text3"
+      id="text3"
       className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
-      placeholder="name@flowbite.com"
+      placeholder="ปีการศึกษา"
       required
     />
     <button
